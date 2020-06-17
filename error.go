@@ -10,7 +10,7 @@ type ErrTimeout struct {
 
 func newErrTimeout(user string, addr string, cmd string) *ErrTimeout {
 	return &ErrTimeout{
-		str: fmt.Sprintf("%v@%v [%v] execute timeout", user, addr, cmd),
+		str: fmt.Sprintf("execute timeout"),
 	}
 }
 

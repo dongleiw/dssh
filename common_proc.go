@@ -1,10 +1,7 @@
 package dssh
 
 import (
-	//doputils "dop/utils"
 	"fmt"
-	//"regexp"
-	//"strconv"
 )
 
 var (
